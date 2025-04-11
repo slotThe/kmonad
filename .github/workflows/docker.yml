@@ -12,7 +12,7 @@ jobs:
       matrix:
         target:
           - linux
-          #- windows # Too flaky
+          - windows
     steps:
 
       - name: Clone project
